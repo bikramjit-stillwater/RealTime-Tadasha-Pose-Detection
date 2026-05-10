@@ -1,0 +1,61 @@
+# ----- Virtual environments -----
+venv310/
+venv/
+env/
+.venv/
+ENV/
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ----- Environment / secrets -----
+.env
+.env.*
+*.env
+secrets.toml
+.streamlit/secrets.toml
+
+# ----- IDE / Editor -----
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ----- Streamlit -----
+.streamlit/cache/
+.streamlit/logs/
+
+# ----- App-generated output -----
+output/
+recordings/
+extracted_frames/
+temp/
+tmp/
+
+# ----- Logs / coverage -----
+*.log
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+.mypy_cache/
+
+# ----- Jupyter -----
+.ipynb_checkpoints/
+
+# ----- OS -----
+*.bak
+*.tmp
