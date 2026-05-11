@@ -4,7 +4,5 @@ mediapipe==0.10.14
 numpy==1.26.4
 google-generativeai==0.8.3
 python-dotenv==1.0.1
-
-# Required if you switch to browser webcam (recommended for cloud deployment)
 streamlit-webrtc==0.47.9
 av==12.3.0
